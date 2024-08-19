@@ -83,15 +83,15 @@ nav {
   }
 
   .container {
-    background-image: url('Background.jpg');
+    background-image: url('final.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
   }
 
   .Form{
     text-align: center;
-    top: 10%;
+    padding-top: 15%;
     position: relative;
   }
 
@@ -148,4 +148,14 @@ nav {
 
  .Submit{
     margin-top:10px;
+ }
+
+ #results{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+ }
+
+ #results img{
+    width:200px;
  }
