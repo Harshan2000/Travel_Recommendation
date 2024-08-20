@@ -113,6 +113,7 @@ nav {
     display: flex;
     position: relative;
     top:1%;
+    align-items: center;
   }
 
   .team{
