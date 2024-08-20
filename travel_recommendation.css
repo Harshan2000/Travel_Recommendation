@@ -44,6 +44,14 @@ nav {
     font-size: large;
     text-indent: 2px;
   }
+
+  h3{
+    font-size: x-large;
+  }
+
+  h4{
+    font-size: large;
+  }
   
   div {
     margin-bottom: 10px;
@@ -83,6 +91,7 @@ nav {
   }
 
   .container {
+    display: flex;
     background-image: url('final.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -90,9 +99,10 @@ nav {
   }
 
   .Form{
-    text-align: center;
-    padding-top: 15%;
     position: relative;
+    padding-top: 10%;
+    width: 60%;
+    padding-left: 5%;
   }
 
   .book{
@@ -101,10 +111,8 @@ nav {
 
   .social-icons{
     display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
     position: relative;
-    top:32%;
+    top:1%;
   }
 
   .team{
@@ -152,10 +160,13 @@ nav {
 
  #results{
     display: flex;
+    width: 30%;
     text-align: center;
     flex-direction: column;
+    overflow-y: auto; /* Enable scrolling for content exceeding container height */
+    scroll-behavior: smooth; /* Smooth scrolling behavior */
  }
 
  #results img{
-    width:200px;
+    width:400px;
  }
